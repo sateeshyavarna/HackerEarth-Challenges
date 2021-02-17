@@ -21,3 +21,8 @@ This data set consists of six columns:
 | retweet_count  | Number of times retweeted  |	
 | original_author  | Twitter handle of Author  |	
 | sentiment_class	| Sentiment of Tweet (Target)| 
+
+<p>The data folder consists of two .csv files. The details are as follows:</p>
+
+* train.csv: 3235 x 6
+* test.csv: 1387 x 5
