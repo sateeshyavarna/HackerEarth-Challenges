@@ -26,3 +26,6 @@ This data set consists of six columns:
 
 * train.csv: 3235 x 6
 * test.csv: 1387 x 5
+
+<h2>Evaluation Criteria</h2>
+score = {100* f1\_score(actual\_values,predicted\_values,average = 'weighted')}
