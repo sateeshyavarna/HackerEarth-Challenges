@@ -35,5 +35,5 @@ This data set consists of six columns:
 * test.csv: 1387 x 5
 
 <h2>Evaluation Criteria</h2>
-![equation](https://latex.codecogs.com/gif.latex?score%20%3D%20%7B100*%20f1%5C_score%28actual%5C_values%2Cpredicted%5C_values%2Caverage%20%3D%20%27weighted%27%29%7D)
+<img src="https://latex.codecogs.com/gif.latex?score&space;=&space;{100*&space;f1\_score(actual\_values,predicted\_values,average&space;=&space;'weighted')}" title="score = {100* f1\_score(actual\_values,predicted\_values,average = 'weighted')}" />
 
