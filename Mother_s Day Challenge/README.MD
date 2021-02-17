@@ -5,11 +5,18 @@
 ![Mother's Day Challenge](https://media-fastly.hackerearth.com/media/hackathon/hackerearth-machine-learning-challenge-mothers-day/images/09353cce9a-Mothers_Day_Cover.png)	
 
 <h2>Problem statement</h2>	
-You work in an event management company. On Mother's Day, your company has organized an event where they want to cast positive Mother's Day related tweets in a presentation. Data engineers have already collected the data related to Mother's Day that must be categorized into positive, negative, and neutral tweets.	
-<br></br>	
-You are appointed as a Machine Learning Engineer for this project. Your task is to build a model that helps the company classify these sentiments of the tweets into positive, negative, and neutral	
+While every day should be Mothers' Day [’cuz they rock], we are all guilty of taking to social media to post mushy messages or images on the second Sunday of May for our mothers. However, the Human Resources team of your organization wishes to celebrate and honor all moms currently employed at the company with a special monthly event. For one of such events, they have reached out to your team to curate and categorize Mothers’ Day-related tweets from across the globe.
+<br><br>
+As a Machine Learning Engineer, your task is to build a sophisticated sentiment analysis-based NLP model that can classify sentiments of tweets into positive, negative, and neutral.	
+<br/>
+
+
+https://www.hackerearth.com/challenges/competitive/hackerearth-machine-learning-challenge-mothers-day/
 
 <h2>Data description</h2>	
+
+The dataset consists of various parameters such as text and language of a tweet, the number of times it was retweeted, and the Twitter handle of the author.
+
 This data set consists of six columns:	
 
 
