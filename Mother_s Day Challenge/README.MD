@@ -51,11 +51,15 @@ This data set consists of six columns:
 10. Extracted only words other than special characters and greater than 2 words.
 11. Tokenised entire tweet text
 12. Removed all stop words using nltk stopwords
-13. applied Lemmatization(It is the process of grouping together the different inflected forms of a word so they can be analysed as a single item) to group words.
+13. Applied Lemmatization(It is the process of grouping together the different inflected forms of a word so they can be analysed as a single item) to group words.
 14. Used Genism package to create vectors from word usng 200 as feature size and context window size as 5
 
 <h2>Model Building</h2>
 
 1. Used XGBoost model to build the predictions 
-2. applied grid search for hyper parameter tuning
+2. Applied grid search for hyper parameter tuning
+
+<h2>Results</h2>
+
+Secured rank of 76 in public leader board and secured 113 rank in Private Leaderboard
 
