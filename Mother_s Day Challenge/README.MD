@@ -37,3 +37,19 @@ This data set consists of six columns:
 <h2>Evaluation Criteria</h2>
 <img src="https://latex.codecogs.com/gif.latex?score&space;=&space;{100*&space;f1\_score(actual\_values,predicted\_values,average&space;=&space;'weighted')}" title="score = {100* f1\_score(actual\_values,predicted\_values,average = 'weighted')}" />
 
+<h2>Data Pre-Processing & Feature Engineering</h2>
+1 Target Variable has -1,0,1 for indicating negative,neutral,positive tweets. Updated those to 0,1,2 because xgb.cv giving error as label should be in [0.num_class]
+2 Used HTML Parser to convert all named and numeric character references (e.g. &gt;, &#62;, &#x3e;) in the string s to the corresponding Unicode characters.
+3. Used regex to replace all URL's like twitter.com,instagram.com from the tweets
+4. Extracted only words from the tweets
+5. Converted entire text to lower case
+6. Created Apostrophe Dictionary to change the words having Apostrophe in the tweets
+7. Updated words in tweets which has short hand words
+8. Created and used to emoji dictionary to update all emoji's in tweets
+9. Counted all the hashtags and added as feature to the data
+10. 
+11. 
+              1. A nested numbered list
+              2. Which is numbered
+          2. Which is numbered
+
